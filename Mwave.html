@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mwave</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <h2>Create Account</h2>
+            <div class="input-control">
+                <label for="firstname">First Name</label>
+                <input id="firstname" name="firstname" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="lastname">Last Name</label>
+                <input id="lastname" name="lastname" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text" placeholder="example@gmail.com">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Confirm Password</label>
+                <input id="password2" name="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="birthdate">Birthdate</label>
+                <input id="birthdate" name="birthdate" type="text" placeholder="MM/DD/YYYY   (EX. 01/01/2000)">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <input id="checkbox1" name="checkbox1" type="checkbox">
+                <label for="checkbox1">(Required) Terms of Service</label>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <input id="checkbox2" name="checkbox2" type="checkbox">
+                <label for="checkbox2">(Required) Consent to collection and use of personal information</label>
+                <div class="error"></div>
+            </div>
+            <button type="submit" id="button">SIGN UP</button>
+        </form>
+    </div>
+</body>
+</html>
